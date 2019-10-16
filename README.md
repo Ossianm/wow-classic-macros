@@ -32,14 +32,14 @@
 ```
 #### W1ZerkerSt2H
 ```
-#showtooltip Berseker Stance
+#showtooltip Berserker Stance
 /cast Berserker Stance
 /equipslot 16 2H_WEAPON
 
 ```
 #### W1ZerkerSt1H
 ```
-#showtooltip Berseker Stance
+#showtooltip Berserker Stance
 /cast Berserker Stance
 /equipslot 16 1H_WEAPON1
 /equipslot 17 1H_WEAPON2
@@ -67,7 +67,7 @@
 /cast Battle Stance
 /cast Thunder Clap
 ```
-#### W2OverPower
+#### W2Overpower
 ```
 #showtooltip Overpower
 /startattack
@@ -88,19 +88,12 @@
 /cast Battle Stance
 /cast Hamstring
 ```
-#### W2SweepingS
+#### W2SweepingStr
 ```
 #showtooltip Sweeping Strikes
 /startattack
 /cast Battle Stance
 /cast Sweeping Strikes
-```
-#### W2Charge
-```
-#showtooltip Charge
-/startattack
-/cast Battle Stance
-/cast Charge
 ```
 #### W2Retaliation
 ```
@@ -131,13 +124,6 @@
 /cast Berserker Rage
 /startattack
 ```
-#### W4Intercept
-```
-#showtooltip Intercept
-/startattack
-/cast Berserker Stance
-/cast Intercept
-```
 #### W4Pummel
 ```
 #showtooltip Pummel
@@ -153,6 +139,15 @@
 /cast Whirlwind
 ```
 ### Other
+#### W5ChargeIntercep
+```
+#showtooltip [nocombat]Charge;Intercept
+/cast [nocombat]Battle Stance
+/cast Charge
+/cast [combat]Berserker Stance
+/cast Intercept
+/startattack
+```
 #### W5MortalStrike
 ```
 #showtooltip Mortal Strike
