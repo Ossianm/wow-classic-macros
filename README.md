@@ -3,7 +3,7 @@
 
 # WARRIOR
 ### Weapon swaps
-#### W1DefStanceShield
+#### W1DefStShield
 ```
 #showtooltip Defensive Stance
 /equipslot 16 1H_WEAPON
@@ -17,27 +17,27 @@
 /equipslot 17 SHIELD
 /cast Shield Bash
 ```
-#### W1BattleStance2H
+#### W1BattleSt2H
 ```
 #showtooltip Battle Stance
 /cast Battle Stance
 /equipslot 16 2H_WEAPON
 ```
-#### W1BattleStance1H
+#### W1BattleSt1H
 ```
 #showtooltip Battle Stance
 /cast Battle Stance
 /equipslot 16 1H_WEAPON1
 /equipslot 17 1H_WEAPON2
 ```
-#### W1ZerkerStance2H
+#### W1ZerkerSt2H
 ```
 #showtooltip Berseker Stance
 /cast Berserker Stance
 /equipslot 16 2H_WEAPON
 
 ```
-#### W1ZerkerStance1H
+#### W1ZerkerSt1H
 ```
 #showtooltip Berseker Stance
 /cast Berserker Stance
