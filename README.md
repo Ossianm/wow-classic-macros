@@ -158,5 +158,5 @@
 ```
 #showtooltip Sunder Armor
 /startattack
-/cast Mortal Strike
+/cast Sunder Armor
 ```
